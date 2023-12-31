@@ -54,23 +54,26 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/insight-06.jpg',
-    title: 'Importance of Performance Metrics In DevOps Culture',
-    subtitle:
-        'You can improve the effectiveness of your development teams by applying the right DevOps measurement strategy.',
+    id: 1,
+    title: "What is DevFest?"
   },
   {
-    imgUrl: '/insight-05.jpg',
-    title: 'Why Traditional Performance Testing is dead?',
-    subtitle:
-        'That statement likely comes as a shock to those of us that fancy ourselves as performance test engineers.  Do I believe that traditional performance testing is dead?',
+    id: 1,
+    title: "What is DevFest?"
   },
   {
-    imgUrl: '/insight-04.jpg',
-    title: 'Web3 Beyond Blockchains',
-    subtitle:
-        'This week at the GOTO Chicago annual conference, experts from Truebit and the Forte Group participated in a panel discussion exploring the potential of Web3 technology in enterprise computing.',
+    id: 1,
+    title: "What is DevFest?"
   },
+  {
+    id: 1,
+    title: "What is DevFest?"
+  },
+  {
+    id: 1,
+    title: "What is DevFest?"
+  },
+  
 ];
 
 export const socials = [

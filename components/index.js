@@ -1,5 +1,5 @@
 import Navbar from './Navbar';
-import Particle from './Particle';
+// import Particle from './Particle';
 import { TypingText, TitleText } from './CustomTexts';
 import ExploreCard from './ExploreCard';
 import StartSteps from './StartSteps';
@@ -16,5 +16,5 @@ export {
   ExploreCard,
   InsightCard,
   Footer,
-  Particle,
+  // Particle,
 };

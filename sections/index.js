@@ -6,7 +6,7 @@ import WhatsNew from './WhatsNew';
 import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
-import Particle from '../components/Particle';
+// import Particle from '../components/Particle';
 
 export {
   Hero,
@@ -17,5 +17,5 @@ export {
   World,
   Insights,
   Feedback,
-  Particle,
+  // Particle,
 };
