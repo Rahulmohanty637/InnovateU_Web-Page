@@ -1,34 +1,39 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    // imgUrl: '/planet-01.png',
+    imgUrl: '/Machinelearning.jpeg',
+    title: 'Data Science and Machine Learning',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    // imgUrl: '/planet-02.png',
+    imgUrl: '/webdev1.jpeg',
+    title: 'Software Development',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    // imgUrl: '/planet-03.png',
+    imgUrl: '/AdobeStock_618823809_Preview.jpeg',
+    title: 'Game Development',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    // imgUrl: '/planet-04.png',
+    imgUrl: '/AdobeStock_624739757_Preview.jpeg',
+    title: 'AR-VR',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    // imgUrl: '/planet-05.png',
+    imgUrl: '/AdobeStock_482710881_Preview.jpeg',
+    title: 'DevOps Infrastructure',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
+  'Find a domain that suits you and you want to enter',
+  'Enter the world by contributing in real-life projects',
   'No need to beat around the bush, just stay on the gas and have fun',
 ];
 
@@ -37,34 +42,34 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'A new world',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'All of our events are completely free and open for everyone. Fun-filled events with no compromise on quality',
   },
   {
     imgUrl: '/headset.svg',
     title: 'More realistic',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Explore the plethora of events & have the opportunity to grab amazing prizes & goodies!',
   },
 ];
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    imgUrl: '/insight-06.jpg',
+    title: 'Importance of Performance Metrics In DevOps Culture',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'You can improve the effectiveness of your development teams by applying the right DevOps measurement strategy.',
   },
   {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    imgUrl: '/insight-05.jpg',
+    title: 'Why Traditional Performance Testing is dead?',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'That statement likely comes as a shock to those of us that fancy ourselves as performance test engineers.  Do I believe that traditional performance testing is dead?',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/insight-04.jpg',
+    title: 'Web3 Beyond Blockchains',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'This week at the GOTO Chicago annual conference, experts from Truebit and the Forte Group participated in a panel discussion exploring the potential of Web3 technology in enterprise computing.',
   },
 ];
 
