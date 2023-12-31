@@ -55,23 +55,28 @@ export const newFeatures = [
 export const insights = [
   {
     id: 1,
-    title: "What is DevFest?"
+    title: "What is DevFest?",
+    ans: "DevFest is an annual technology conference organized by the developer community. It brings together developers, designers, and tech enthusiasts to learn, share knowledge, and network."
   },
   {
-    id: 1,
-    title: "What is DevFest?"
+    id: 2,
+    title: "When and Where is DevFest happening this year?",
+    ans: "DevFest is scheduled to take place on [insert date] at [insert venue]. Check the official DevFest website for the most up-to-date information."
   },
   {
-    id: 1,
-    title: "What is DevFest?"
+    id: 3,
+    title: "How can I register for DevFest?",
+    ans: "You can register for DevFest on the official website. Look for the 'Register' or 'Get Tickets' button, and follow the registration process to secure your spot."
   },
   {
-    id: 1,
-    title: "What is DevFest?"
+    id: 4,
+    title: "Are there any prerequisites for attending DevFest?",
+    ans: "DevFest is open to anyone interested in technology. While some sessions may have specific prerequisites, most of the content is designed to be accessible to a broad audience. Check the session descriptions for any requirements."
   },
   {
-    id: 1,
-    title: "What is DevFest?"
+    id: 5,
+    title: "Is there a code of conduct for DevFest atendees?",
+    ans: "Yes, there is a code of conduct that all DevFest attendees are expected to follow. It includes guidelines for respectful behavior, inclusivity, and creating a positive conference experience for everyone. Familiarize yourself with the code of conduct before attending."
   },
   
 ];

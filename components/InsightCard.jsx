@@ -5,8 +5,7 @@ import { BsChevronDown } from "react-icons/bs";
 import { fadeIn } from "../utils/motion";
 import { useState } from "react";
 
-
-const InsightCard = ({ imgUrl, title, subtitle, index }) => {
+const InsightCard = ({ id, title, index, ans }) => {
   const [activeIndex, setActiveIndex] = useState(null);
   const handleClick = (id) => {
     setActiveIndex(id === activeIndex ? null : id);
@@ -23,18 +22,28 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => {
               <div className="sm:text-xl text-base font-bold text-white">
                 {title}
               </div>
-              <BsChevronDown onClick={() => handleClick(IDBCursor)} className="text-yellow-50" />
+              <BsChevronDown
+                className={`${
+                  id === activeIndex ? "rotate-180" : "rotate-0"
+                } cursor-pointer transition-all duration-300 text-yellow-100 ml-10 font-bold`}
+                onClick={() => handleClick(id)}
+              />
             </div>
             <AnimatePresence>
-              {
-                id === activeIndex && (
-                  <div>
-                    <p>
-                    DevFest is an annual technology conference organized by the developer community. It brings together developers, designers, and tech enthusiasts to learn, share knowledge, and network.
-                    </p>
-                  </div>
-                )
-              }
+              {id === activeIndex && (
+                <motion.div
+                  initial={{ height: 0 }}
+                  animate={{ height: "auto" }}
+                  exit={{ height: 0 }}
+                  transition={{ duration: 0.3 }}
+                  style={{ overflow: "hidden" }}
+                  className="pt-4"
+                >
+                  <p className="text-yellow-100">
+                    {ans}
+                  </p>
+                </motion.div>
+              )}
             </AnimatePresence>
           </div>
         </div>
