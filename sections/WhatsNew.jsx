@@ -27,6 +27,12 @@ const WhatsNew = () => (
             <NewFeatures key={feature.title} {...feature} />
           ))}
         </div>
+        <br />
+        <div className="z-10 space-x-6">
+          <button className="relative border-2 font-medium border-purple-600 bg-transparent py-2.5 px-5 uppercase text-purple-600 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-purple-600 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
+            Ongoing Event
+          </button>
+        </div>
       </motion.div>
 
       <motion.div
@@ -38,11 +44,6 @@ const WhatsNew = () => (
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
-        <div className="z-10 space-x-6">
-          <button className="relative border-2 font-medium border-purple-600 bg-transparent py-2.5 px-5 uppercase text-purple-600 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-purple-600 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100">
-            Ongoing Event
-          </button>
-        </div>
       </motion.div>
     </motion.div>
   </section>
